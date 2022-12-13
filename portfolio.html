@@ -5,21 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webstudio</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <!--Header-->
     <header>
         <nav>
-            <a href="./index.html">webstudio</a>    
-            <ul>
-                <li><a href="./index.html">Studio</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Contacts</a></li>
+            <div class="logo">
+                <a class="web" href="./index.html">web</a>
+                <a class="studio" href="./index.html">studio</a>
+            </div>    
+            <ul class="header-menu">
+                <li class="header-studio"><a href="./index.html">Studio</a></li>
+                <li class="header-portfolio"><a href="./portfolio.html">Portfolio</a></li>
+                <li class="header-contact"><a href="">Contacts</a></li>
             </ul>
         </nav>
         <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+            <li class="mail"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="tel"><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
     </header>
     <main>
@@ -31,13 +36,13 @@
             <li><button type="button">Design</button></li>
             <li><button type="button">Marketing</button></li>
         </ul>
-        <!--section3-->
+        <!--section-->
         <ul>
             <li><img src="./images/banking.jpg" alt="Banking App" width="360" height="300">
                 <h2>Banking App Interface Concept</h2>
                 <p>App</p>
             </li>
-            <li><img src="./images/cashless.jpg" alt="Cashless Payment" width="360" height="300">
+            <li>
                 <p>14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                 <h2>Cashless Payment</h2>
                 <p>Marketing</p>
@@ -73,7 +78,7 @@
         </ul>
     </main> 
     <!--Footer-->
-    <footer>
+    <footer class="foter-portfolio">
             <a href="./index.html">webstudio</a>
             <p>Increase the flow of customers and 
              sales for your business with digital 

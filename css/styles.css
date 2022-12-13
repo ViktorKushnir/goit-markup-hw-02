@@ -1,0 +1,95 @@
+/* background: #2E2F42;
+background: #434455;
+ */
+
+
+
+
+:root {
+--text:#434455 ;
+--background: ;
+;
+--selection: ;
+}
+
+            /* header */
+
+    /* logo */
+
+.logo-web {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    color: #4D5AE5;
+}
+
+.logo-studio {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    color:  #2E2F42;
+}
+
+    /* nav */
+
+.nav {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2E2F42
+}
+
+.nav-studio:hover, .nav-studio:focus {
+    color: #4D5AE5;
+    letter-spacing: 0.02em
+}
+.nav-portfolio:hover, .nav-portfolio:focus {
+    color: #4D5AE5;
+    letter-spacing: 0.02em
+}
+.nav-contact:hover, .nav-contact:focus {
+    color: #4D5AE5;
+    letter-spacing: 0.02em
+}
+
+    /* contact */
+
+.mail {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;    
+    color: #434455;
+}
+
+.mail:hover, .mail:focus {
+    color:#4D5AE5 ;
+    letter-spacing: 0.02em;
+}
+
+.tel {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+   
+    color: #434455;
+}
+.tel:hover, .tel:focus {
+    color:#4D5AE5 ;
+    letter-spacing: 0.02em;
+}
+
+body {
+    font-family: Roboto;
+    color:var(--text);
+    ;
+}
