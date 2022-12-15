@@ -5,6 +5,8 @@
 body {
   font-family: Roboto;
   font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
   color: var(--text);
 }
 ul {
@@ -20,7 +22,10 @@ ul {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.16;
+
+  display: flex;
+  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
@@ -32,36 +37,35 @@ ul {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
-  color: #2e2f42;
+  line-height: 1.16;
+
+  display: flex;
+  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
+  color: #2e2f42;
 }
 
 /* nav */
 
 .nav {
   font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
-  color: #2e2f42;
+  color: var(--title);
 }
 
 .nav-studio:hover,
-.nav-studio:focus,
-.nav-studio:active {
+.nav-studio:focus {
   color: #4d5ae5;
   letter-spacing: 0.02em;
 }
 .nav-portfolio:hover,
-.nav-portfolio:focus,
-.nav-portfolio:active {
+.nav-portfolio:focus {
   color: #4d5ae5;
   letter-spacing: 0.02em;
 }
 .nav-contact:hover,
-.nav-contact:focus,
-.nav-contact:active {
+.nav-contact:focus {
   color: #4d5ae5;
   letter-spacing: 0.02em;
 }
@@ -70,28 +74,21 @@ ul {
 
 .mail {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
   color: #434455;
 }
 
 .mail:hover,
-.mail:focus,
-.mail:active {
+.mail:focus {
   color: #4d5ae5;
   letter-spacing: 0.02em;
 }
 
 .tel {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-
   color: #434455;
 }
 .tel:hover,
-.tel:focus,
-.tel:active {
+.tel:focus {
   color: #4d5ae5;
   letter-spacing: 0.02em;
 }
@@ -113,19 +110,28 @@ ul {
 .solution-Business {
   font-weight: 600;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
+
+  text-align: center;
   letter-spacing: 0.02em;
 
-  color: #ffffff;
+  /* color: #ffffff; */
+  color: black;
 }
 
 .button {
-  background-color: #4d5ae5;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+
   color: #ffffff;
 }
 .button:hover,
-.button:focus,
-.button:active {
+.button:focus {
   color: #ffffff;
   letter-spacing: 0.02em;
 }
@@ -135,7 +141,7 @@ ul {
 .title {
   font-weight: 600;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 
   color: var(--title);
@@ -143,8 +149,6 @@ ul {
 
 .description {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
   letter-spacing: 0.02em;
 }
 
@@ -154,18 +158,113 @@ ul {
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.1;
 
-  color: var(--title);
-}
-
-.team {
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 40px;
-
+  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 
   color: var(--title);
+}
+
+/* section 4 */
+
+.team {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.1;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: var(--title);
+}
+
+.team-card h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+
+  /* text-align: center; */
+  letter-spacing: 0.02em;
+
+  color: var(--title);
+}
+
+.team-card p {
+  font-weight: 400;
+  letter-spacing: 0.02em;
+
+  color: #434455;
+}
+
+/* footer */
+
+/* footer {
+  position: absolute;
+  width: 1440px;
+  height: 310px;
+  left: 0px;
+  top: 2283px;
+
+  background: #2e2f42;
+} */
+
+footer p {
+  font-weight: 400;
+  letter-spacing: 0.02em;
+
+  /* color: #e7e9fc; */
+  color: black;
+}
+
+/* PORTFOLIO */
+
+/* section 1 */
+
+.filters button {
+  background: #f4f4fd;
+
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+
+  /* text */
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #4d5ae5;
+}
+
+button:hover,
+button:focus {
+  background: #4d5ae5;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+
+  color: #ffffff;
+}
+
+/* section 2 */
+
+.project h2 {
+  font-weight: 600;
+  letter-spacing: 0.02em;
+
+  color: #2e2f42;
+}
+
+.project p {
+  font-weight: 400;
+  letter-spacing: 0.02em;
+
+  color: #434455;
+}
+
+#popup {
+  color: #f4f4fd;
 }
